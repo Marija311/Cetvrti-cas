@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+html, body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    background-image: url('Hero\ image.png');
+    background-color: antiquewhite;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+color: aliceblue;
+height: 200px;
+    
+}
+
+.img {
+    height: 200px;
+    width: 150px;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text h2 {
+    font-family: Georgia;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 70px;
+   
+}
+
+
+.logo-text h3 {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none; 
+}
+a {
+color: aliceblue;
+text-decoration: none;
+font-family: Georgia;
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+width: 120px;       
+}
+.hero-image h1 {
+position: absolute;
+left: 172px ;
+top:280px ;
+color: aliceblue;
+font-family: Georgia;
+font-size: 34px;
+font-weight: 600;
+line-height: 73px;
+letter-spacing: 0em;
+text-align: left;
+}
+.btns {
+position: absolute;
+left: 172px;
+top: 464px;
+width: 700px ;
+}
+.btns button {
+width: 308px;
+height: 74px;
+background: #E4E6C3;
+border: 3px solid #222725;
+border-radius: 20px;
+font-family: Verdana;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.btns :nth-of-type(2) {
+background: transparent;
+border: 3px solid #f5ebca;
+margin-left: 70px;
+color: #f5ebca;        
+}
+.m-24 {
+    margin: 24px;
+}
+.w-50 {
+    width: 50%;
+}
+.text-right {
+    text-align: right;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.text-green-100 {
+    color: #899878;
+ }
+ .img-center {
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    }
+.text-center {
+    text-align: center;
+       }
+.text-grey {
+    color: #899878;
+    font-size: 12px;
+
+       }
+    
+.form {
+    width: 30%;
+    margin: auto;
+    }
+.form-h1 {
+    margin-bottom: 10px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    }
+.form-input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    background: #F7F7F2;
+    border: 1px solid #222725;
+    border-radius: 5px;  
+}
+.form-button{
+    width: 120px;
+    height: 36px;
+    color: white;
+    background: #222725;
+    border-radius: 25px;
+}
+footer {
+    position: absolute;
+    background-color: #899878;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    color: #FFFF;
+    height: 100px;
+}
+
+
+.h3-footer {
+    
+    width: 292px;
+    margin-left: 161px;
+    margin-top: 24px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.p-footer { 
+    position: relative;
+    width: 184px;
+    height: 161px;
+    margin-left: 24px;
+    top: 94px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+.logo-footer {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400; 
+    margin: 24px 12px 16px 52px;
+}
+
+
+.p-position {
+    display: block;
+    text-align: center;
+    font-size: x-small;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-instagram {
+    position:relative;
+    left:820px;
+    bottom:128px;
+}
+
+.img-twitter {
+    position:relative;
+    left:820px;
+    bottom:128px;
+}
+
+.img-mail {
+    position:relative;
+    left:820px;
+    bottom:128px;
+}
+
+
+
